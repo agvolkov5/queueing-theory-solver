@@ -99,12 +99,12 @@ class App extends Component {
         this.getCurrentSMOKind();
     });
   };
-  queueLengthLimitOn = event => {
+  queueLengthLimitOn = () => {
     this.setState({m_radio: 'queue length limit'}, () => {
         this.getCurrentSMOKind();
     });
   };
-  numberOfResponseSources = event => {
+  numberOfResponseSources = () => {
     this.setState({m_radio: 'number of response sources'}, () => {
         this.getCurrentSMOKind();
     });
@@ -159,7 +159,7 @@ class App extends Component {
                   />
               </div>
               <div className="m-radio">
-                  <div className="radio-title">m означает:</div>
+                  <div className="radio-title">m это:</div>
                   <div>
                       <input type="radio"
                              id="constraint-for-queue-length-radio"
