@@ -140,16 +140,24 @@ body {
   font-size: 18pt;
   font-weight: 500;
   font-family: "Times New Roman", sans-serif;
+  margin-bottom: 15pt;
 }
-.results-container .formula {
+.results-container .formula-container .title {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 14pt;
+  margin-bottom: 5pt;
+}
+.results-container .formula-container .formula {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
-.results-container .formula .value {
+.results-container .formula-container .formula .value {
+  position: relative;
   font-size: 19pt;
   font-family: "Times New Roman", sans-serif;
-  margin-left: 10pt;
+  margin-left: 5pt;
 }
 
 /*# sourceMappingURL=App.css.map */

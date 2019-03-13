@@ -37,8 +37,11 @@ class App extends Component {
               t_input_visible: false,
               formulas: [
                   {
-                      'title': 'Rho',
+                      'title': 'Занятость канала',
                       'img': formula_rho,
+                      'height': 33,
+                      'value': '= 10',
+                      'valueOffset': -4
                   }
               ],
           },
@@ -216,7 +219,12 @@ class App extends Component {
           <div className="results-container">
               <h1>{this.state.smo.title}</h1>
               <div className="formulas">
-                  <Formula img={formulas[0].img} title={formulas[0].title} />
+                  <Formula img={formulas[0].img}
+                           title={formulas[0].title}
+                           height={formulas[0].height}
+                           value={formulas[0].value}
+                           valueOffset={formulas[0].valueOffset}
+                  />
               </div>
           </div>
         </div>

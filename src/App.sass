@@ -165,13 +165,23 @@ body
     font-size: 18pt
     font-weight: 500
     font-family: "Times New Roman", sans-serif
+    margin-bottom: 15pt
 
-  .formula
-    display: flex
-    flex-direction: row
-    align-items: center
+  .formula-container
 
-    .value
-      font-size: 19pt
+    .title
       font-family: "Times New Roman", sans-serif
-      margin-left: 10pt
+      font-size: 14pt
+      margin-bottom: 5pt
+
+    .formula
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      align-items: center
+
+      .value
+        position: relative
+        font-size: 19pt
+        font-family: "Times New Roman", sans-serif
+        margin-left: 5pt
