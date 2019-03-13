@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/queueing-theory-solver/precache-manifest.a4b4763cf38bae23e9eecccaefb7b9e1.js"
+  "/queueing-theory-solver/precache-manifest.90aa23cbd98e88e150ee3a65f6b5dcae.js"
 );
 
 workbox.clientsClaim();
