@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import formula_rho from './img/rho.png';
 import formula_5_1 from './img/5-1.png';
+import formula_5_2 from './img/5-2.png';
 
 class App extends Component {
   constructor(props) {
@@ -10,6 +12,16 @@ class App extends Component {
           '0sr': {
               title: 'Одноканальная СМО с отказами',
               t_input_visible: false,
+              formulas: [
+                  {
+                      title: 'Вероятность нахождения СМО в S<sub>0</sub> (канал свободен)',
+                      src: formula_5_1,
+                  },
+                  {
+                      title: 'Вероятность нахождения СМО в S<sub>1</sub> (канал занят)',
+                      src: formula_5_2,
+                  },
+              ]
           },
           '0mr': {
               title: 'Многоканальная СМО с отказами',
@@ -22,6 +34,12 @@ class App extends Component {
           '0si': {
               title: 'Одноканальная СМО с неограниченной очередью',
               t_input_visible: false,
+              formulas: [
+                  {
+                      'title': '',
+                      'img': formula_rho,
+                  }
+              ],
           },
           '0ml': {
               title: 'Многоканальная СМО с ограниченной очередью',
@@ -80,7 +98,7 @@ class App extends Component {
 
       const smo = this.smo_kinds[code];
       this.setState({smo: smo}, () => {
-          console.log(this.state.smo.t_input_visible !== true);
+          console.log(this.state.smo);
       });
   };
 
@@ -167,7 +185,7 @@ class App extends Component {
                              onChange={this.queueLengthLimitOn}
                              checked={this.state.m_radio === 'queue length limit'}
                       />
-                      <label htmlFor="constraint-for-queue-length-radio">ограничение длины очереди</label>
+                      <label htmlFor="constraint-for-queue-length-radio">число мест в очереди</label>
                   </div>
                   <div>
                       <input type="radio"
@@ -193,7 +211,12 @@ class App extends Component {
           </div>
           <div className="results-container">
               <h1>{this.state.smo.title}</h1>
-              <img src={formula_5_1} height="70pt" alt="formula 5.1"/>
+              <div className="formula">
+                <img src={formula_5_1} height="70pt" alt="formula 5.1"/>
+                <div className="value">
+                    = 5,103
+                </div>
+              </div>
           </div>
         </div>
     );

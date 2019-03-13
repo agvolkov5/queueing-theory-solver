@@ -60,7 +60,7 @@ body
 
   padding-left: 20pt
 
-  //background: aquamarine
+//background: aquamarine
 
 .tasks-kinds-wrapper > div
   font-size: 16pt
@@ -128,7 +128,7 @@ body
       border-radius: 1pt
       padding: 0 10pt
       font-size: $option-font-size
-      //height: 24.5pt
+  //height: 24.5pt
 
   .m-radio
     //text-align: center
@@ -136,7 +136,8 @@ body
 
     .radio-title
       text-align: center
-      padding: 5pt 0
+      //padding: 5pt 0
+      padding: 3pt 0 0 0
 
     label
       position: relative
@@ -144,6 +145,9 @@ body
 
       font-size: 12pt
       padding-left: 6pt
+
+    div:nth-child(n+2)
+      padding-top: 5pt
 
 .results-container
   grid-column-start: 2
@@ -162,4 +166,12 @@ body
     font-weight: 500
     font-family: "Times New Roman", sans-serif
 
-  //background: cornsilk
+  .formula
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    .value
+      font-size: 19pt
+      font-family: "Times New Roman", sans-serif
+      margin-left: 10pt
