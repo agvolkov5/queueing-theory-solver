@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/queueing-theory-solver/static/js/runtime~main.30c876df.js"
   },
   {
-    "revision": "c2eba49e186d12dc1a00",
-    "url": "/queueing-theory-solver/static/js/main.1f822827.chunk.js"
+    "revision": "d0143e3aeee91828ea7d",
+    "url": "/queueing-theory-solver/static/js/main.ae773262.chunk.js"
   },
   {
     "revision": "2d5055537b40b1757cbf",
     "url": "/queueing-theory-solver/static/js/2.ac0b7c77.chunk.js"
   },
   {
-    "revision": "c2eba49e186d12dc1a00",
-    "url": "/queueing-theory-solver/static/css/main.4ef83619.chunk.css"
+    "revision": "d0143e3aeee91828ea7d",
+    "url": "/queueing-theory-solver/static/css/main.762b892d.chunk.css"
   },
   {
-    "revision": "caec567167d88a420d88df7aaa67b2d5",
+    "revision": "c7c503d54f21fa77cee994091205079f",
     "url": "/queueing-theory-solver/index.html"
   }
 ];
