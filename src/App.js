@@ -37,7 +37,7 @@ class App extends Component {
               t_input_visible: false,
               formulas: [
                   {
-                      'title': '',
+                      'title': 'Rho',
                       'img': formula_rho,
                   }
               ],
