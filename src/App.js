@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Formula from './Formula';
 import formula_rho from './img/rho.png';
 import formula_5_1 from './img/5-1.png';
 import formula_5_2 from './img/5-2.png';
@@ -98,7 +99,7 @@ class App extends Component {
 
       const smo = this.smo_kinds[code];
       this.setState({smo: smo}, () => {
-          console.log(this.state.smo);
+          // console.log(this.state.smo);
       });
   };
 
@@ -117,12 +118,12 @@ class App extends Component {
         this.getCurrentSMOKind();
     });
   };
-  queueLengthLimitOn = () => {
+    queueLengthLimitOn = () => {
     this.setState({m_radio: 'queue length limit'}, () => {
         this.getCurrentSMOKind();
     });
   };
-  numberOfResponseSources = () => {
+    numberOfResponseSources = () => {
     this.setState({m_radio: 'number of response sources'}, () => {
         this.getCurrentSMOKind();
     });
@@ -130,7 +131,10 @@ class App extends Component {
 
   render() {
     const t_visible_className = this.state.smo.t_input_visible === true ? 'option-item' : 'option-item hide';
-    console.log(t_visible_className);
+
+    const formulas = this.state.smo.formulas;
+    console.log(formulas);
+
     return (
         <div className="grid-container">
           <div className="apps-title">Queueing Theory Solver</div>
@@ -211,11 +215,8 @@ class App extends Component {
           </div>
           <div className="results-container">
               <h1>{this.state.smo.title}</h1>
-              <div className="formula">
-                <img src={formula_5_1} height="70pt" alt="formula 5.1"/>
-                <div className="value">
-                    = 5,103
-                </div>
+              <div className="formulas">
+                  <Formula img={formulas[0].img} title={formulas[0].title} />
               </div>
           </div>
         </div>
