@@ -2,12 +2,111 @@ import React, { Component } from 'react';
 import './App.css';
 import Formula from './Formula';
 import formula_rho from './img/rho.png';
+
+import formula_4_5 from './img/4-5.png';
+import formula_4_6 from './img/4-6.png';
+import formula_4_7 from './img/4-7.png';
+import formula_4_8 from './img/4-8.png';
+import formula_4_9 from './img/4-9.png';
+import formula_4_10 from './img/4-10.png';
+
 import formula_5_1 from './img/5-1.png';
 import formula_5_2 from './img/5-2.png';
+
+import formula_6_1 from './img/6-1.png';
+import formula_6_2 from './img/6-2.png';
+import formula_6_3 from './img/6-3.png';
+import formula_6_4 from './img/6-4.png';
+import formula_6_5 from './img/6-5.png';
+import formula_6_6 from './img/6-6.png';
+import formula_6_7 from './img/6-7.png';
+
+import formula_7_1 from './img/7-1.png';
+import formula_7_2 from './img/7-2.png';
+import formula_7_3 from './img/7-3.png';
+import formula_7_4 from './img/7-4.png';
+import formula_7_5 from './img/7-5.png';
+import formula_7_6 from './img/7-6.png';
+import formula_7_7 from './img/7-7.png';
+import formula_7_8 from './img/7-8.png';
+import formula_7_9 from './img/7-9.png';
+import formula_7_10 from './img/7-10.png';
+import formula_7_11 from './img/7-11.png';
+
+import formula_8_1 from './img/8-1.png';
+import formula_8_2 from './img/8-2.png';
+import formula_8_3 from './img/8-3.png';
+import formula_8_4 from './img/8-4.png';
+import formula_8_5 from './img/8-5.png';
+import formula_8_6 from './img/8-6.png';
+import formula_8_7 from './img/8-7.png';
+
+import formula_9_1 from './img/9-1.png';
+import formula_9_2 from './img/9-2.png';
+import formula_9_3 from './img/9-3.png';
+import formula_9_4 from './img/9-4.png';
+import formula_9_5 from './img/9-5.png';
+import formula_9_6 from './img/9-6.png';
+import formula_9_7 from './img/9-7.png';
+import formula_9_8 from './img/9-8.png';
+import formula_9_9 from './img/9-9.png';
+import formula_9_10 from './img/9-10.png';
+import formula_9_11 from './img/9-11.png';
+import formula_9_12 from './img/9-12.png';
+import formula_9_13 from './img/9-13.png';
+import formula_9_14 from './img/9-14.png';
+import formula_9_15 from './img/9-15.png';
+
+import formula_10_1 from './img/10-1.png';
+import formula_10_2 from './img/10-2.png';
+import formula_10_3 from './img/10-3.png';
+import formula_10_4 from './img/10-4.png';
+import formula_10_5 from './img/10-5.png';
+import formula_10_6 from './img/10-6.png';
+import formula_10_7 from './img/10-7.png';
+import formula_10_8 from './img/10-8.png';
+
+import formula_11_1 from './img/11-1.png';
+import formula_11_2 from './img/11-2.png';
+import formula_11_3 from './img/11-3.png';
+import formula_11_4 from './img/11-4.png';
+import formula_11_5 from './img/11-5.png';
+import formula_11_6 from './img/11-6.png';
+import formula_11_7 from './img/11-7.png';
+import formula_11_8 from './img/11-8.png';
+import formula_11_9 from './img/11-9.png';
+import formula_11_10 from './img/11-10.png';
+import formula_11_11 from './img/11-11.png';
+
+import formula_12_1 from './img/12-1.png';
+import formula_12_2 from './img/12-2.png';
+import formula_12_3 from './img/12-3.png';
+import formula_12_4 from './img/12-4.png';
+import formula_12_5 from './img/12-5.png';
+import formula_12_6 from './img/12-6.png';
+import formula_12_7 from './img/12-7.png';
+import formula_12_8 from './img/12-8.png';
+import formula_12_9 from './img/12-9.png';
+import formula_12_10 from './img/12-10.png';
+import formula_12_11 from './img/12-11.png';
+import formula_12_12 from './img/12-12.png';
+import formula_12_13 from './img/12-13.png';
+import formula_12_14 from './img/12-14.png';
+import formula_12_15 from './img/12-15.png';
+import formula_12_16 from './img/12-16.png';
+import formula_12_17 from './img/12-17.png';
 
 class App extends Component {
   constructor(props) {
       super(props);
+
+      this.formulas = [
+          {
+              'number': 4.5,
+              'title': '',
+              'img': formula_4_5
+          }
+      ];
 
       this.smo_kinds = {
           '0sr': {
