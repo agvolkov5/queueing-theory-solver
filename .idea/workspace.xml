@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b79b8fbd-e1b6-45ab-80c0-fb820dd1ed68" name="Default Changelist" comment="">
+    <list default="true" id="b79b8fbd-e1b6-45ab-80c0-fb820dd1ed68" name="Default Changelist" comment="formula data structure filled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formula.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="689" column="31" selection-start-line="689" selection-start-column="31" selection-end-line="689" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -79,6 +75,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -232,7 +233,7 @@
       <workItem from="1552472638559" duration="5404000" />
       <workItem from="1552666999119" duration="318000" />
       <workItem from="1552854602113" duration="74000" />
-      <workItem from="1552863065298" duration="1182000" />
+      <workItem from="1552863065298" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="UX improvement: значит =&gt; это">
       <created>1552395212449</created>
@@ -269,11 +270,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552482752695</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="formula data structure created">
+      <created>1552864450060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552864450060</updated>
+    </task>
+    <task id="LOCAL-00007" summary="formula data structure filled">
+      <created>1552900795851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552900795851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38226000" />
+    <option name="totallyTimeSpent" value="41023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +373,9 @@
     <MESSAGE value="formula moved to own functional component" />
     <MESSAGE value="test commit" />
     <MESSAGE value="beauty formula output" />
-    <option name="LAST_COMMIT_MESSAGE" value="beauty formula output" />
+    <MESSAGE value="formula data structure created" />
+    <MESSAGE value="formula data structure filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="formula data structure filled" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.css">
@@ -412,11 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="689" column="31" selection-start-line="689" selection-start-column="31" selection-end-line="689" selection-end-column="31" />
         </state>
       </provider>
     </entry>
