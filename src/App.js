@@ -105,7 +105,427 @@ class App extends Component {
               'number': 4.5,
               'title': '',
               'img': formula_4_5
-          }
+          },
+          {
+              'number': 4.6,
+              'title': '',
+              'img': formula_4_6
+          },
+          {
+              'number': 4.7,
+              'title': '',
+              'img': formula_4_7
+          },
+          {
+              'number': 4.8,
+              'title': '',
+              'img': formula_4_8
+          },
+          {
+              'number': 4.9,
+              'title': '',
+              'img': formula_4_9
+          },
+          {
+              'number': 4.10,
+              'title': '',
+              'img': formula_4_10
+          },
+          {
+              'number': 5.1,
+              'title': '',
+              'img': formula_5_1
+          },
+          {
+              'number': 5.2,
+              'title': '',
+              'img': formula_5_2
+          },
+          {
+              'number': 6.1,
+              'title': '',
+              'img': formula_6_1
+          },
+          {
+              'number': 6.2,
+              'title': '',
+              'img': formula_6_2
+          },
+          {
+              'number': 6.3,
+              'title': '',
+              'img': formula_6_3
+          },
+          {
+              'number': 6.4,
+              'title': '',
+              'img': formula_6_4
+          },
+          {
+              'number': 6.5,
+              'title': '',
+              'img': formula_6_5
+          },
+          {
+              'number': 6.6,
+              'title': '',
+              'img': formula_6_6
+          },
+          {
+              'number': 6.7,
+              'title': '',
+              'img': formula_6_7
+          },
+          {
+              'number': 7.1,
+              'title': '',
+              'img': formula_7_1
+          },
+          {
+              'number': 7.2,
+              'title': '',
+              'img': formula_7_2
+          },
+          {
+              'number': 7.3,
+              'title': '',
+              'img': formula_7_3
+          },
+          {
+              'number': 7.4,
+              'title': '',
+              'img': formula_7_4
+          },
+          {
+              'number': 7.5,
+              'title': '',
+              'img': formula_7_5
+          },
+          {
+              'number': 7.6,
+              'title': '',
+              'img': formula_7_6
+          },
+          {
+              'number': 7.7,
+              'title': '',
+              'img': formula_7_7
+          },
+          {
+              'number': 7.7,
+              'title': '',
+              'img': formula_7_7
+          },
+          {
+              'number': 7.8,
+              'title': '',
+              'img': formula_7_8
+          },
+          {
+              'number': 7.9,
+              'title': '',
+              'img': formula_7_9
+          },
+          {
+              'number': 7.10,
+              'title': '',
+              'img': formula_7_10
+          },
+          {
+              'number': 7.11,
+              'title': '',
+              'img': formula_7_11
+          },
+          {
+              'number': 8.1,
+              'title': '',
+              'img': formula_8_1
+          },
+          {
+              'number': 8.2,
+              'title': '',
+              'img': formula_8_2
+          },
+          {
+              'number': 8.3,
+              'title': '',
+              'img': formula_8_3
+          },
+          {
+              'number': 8.4,
+              'title': '',
+              'img': formula_8_4
+          },
+          {
+              'number': 8.5,
+              'title': '',
+              'img': formula_8_5
+          },
+          {
+              'number': 8.6,
+              'title': '',
+              'img': formula_8_6
+          },
+          {
+              'number': 8.7,
+              'title': '',
+              'img': formula_8_7
+          },
+          {
+              'number': 9.1,
+              'title': '',
+              'img': formula_9_1
+          },
+          {
+              'number': 9.2,
+              'title': '',
+              'img': formula_9_2
+          },
+          {
+              'number': 9.3,
+              'title': '',
+              'img': formula_9_3
+          },
+          {
+              'number': 9.4,
+              'title': '',
+              'img': formula_9_4
+          },
+          {
+              'number': 9.5,
+              'title': '',
+              'img': formula_9_5
+          },
+          {
+              'number': 9.6,
+              'title': '',
+              'img': formula_9_6
+          },
+          {
+              'number': 9.7,
+              'title': '',
+              'img': formula_9_7
+          },
+          {
+              'number': 9.8,
+              'title': '',
+              'img': formula_9_8
+          },
+          {
+              'number': 9.9,
+              'title': '',
+              'img': formula_9_9
+          },
+          {
+              'number': 9.10,
+              'title': '',
+              'img': formula_9_10
+          },
+          {
+              'number': 9.11,
+              'title': '',
+              'img': formula_9_11
+          },
+          {
+              'number': 9.12,
+              'title': '',
+              'img': formula_9_12
+          },
+          {
+              'number': 9.13,
+              'title': '',
+              'img': formula_9_13
+          },
+          {
+              'number': 9.14,
+              'title': '',
+              'img': formula_9_14
+          },
+          {
+              'number': 9.15,
+              'title': '',
+              'img': formula_9_15
+          },
+          {
+              'number': 10.1,
+              'title': '',
+              'img': formula_10_1
+          },
+          {
+              'number': 10.2,
+              'title': '',
+              'img': formula_10_2
+          },
+          {
+              'number': 10.3,
+              'title': '',
+              'img': formula_10_3
+          },
+          {
+              'number': 10.4,
+              'title': '',
+              'img': formula_10_4
+          },
+          {
+              'number': 10.5,
+              'title': '',
+              'img': formula_10_5
+          },
+          {
+              'number': 10.6,
+              'title': '',
+              'img': formula_10_6
+          },
+          {
+              'number': 10.7,
+              'title': '',
+              'img': formula_10_7
+          },
+          {
+              'number': 10.8,
+              'title': '',
+              'img': formula_10_8
+          },
+          {
+              'number': 11.1,
+              'title': '',
+              'img': formula_11_1
+          },
+          {
+              'number': 11.2,
+              'title': '',
+              'img': formula_11_2
+          },
+          {
+              'number': 11.3,
+              'title': '',
+              'img': formula_11_3
+          },
+          {
+              'number': 11.4,
+              'title': '',
+              'img': formula_11_4
+          },
+          {
+              'number': 11.5,
+              'title': '',
+              'img': formula_11_5
+          },
+          {
+              'number': 11.6,
+              'title': '',
+              'img': formula_11_6
+          },
+          {
+              'number': 11.7,
+              'title': '',
+              'img': formula_11_7
+          },
+          {
+              'number': 11.8,
+              'title': '',
+              'img': formula_11_8
+          },
+          {
+              'number': 11.9,
+              'title': '',
+              'img': formula_11_9
+          },
+          {
+              'number': 11.10,
+              'title': '',
+              'img': formula_11_10
+          },
+          {
+              'number': 11.11,
+              'title': '',
+              'img': formula_11_11
+          },
+          {
+              'number': 12.1,
+              'title': '',
+              'img': formula_12_1
+          },
+          {
+              'number': 12.2,
+              'title': '',
+              'img': formula_12_2
+          },
+          {
+              'number': 12.3,
+              'title': '',
+              'img': formula_12_3
+          },
+          {
+              'number': 12.4,
+              'title': '',
+              'img': formula_12_4
+          },
+          {
+              'number': 12.5,
+              'title': '',
+              'img': formula_12_5
+          },
+          {
+              'number': 12.6,
+              'title': '',
+              'img': formula_12_6
+          },
+          {
+              'number': 12.7,
+              'title': '',
+              'img': formula_12_7
+          },
+          {
+              'number': 12.8,
+              'title': '',
+              'img': formula_12_8
+          },
+          {
+              'number': 12.9,
+              'title': '',
+              'img': formula_12_9
+          },
+          {
+              'number': 12.10,
+              'title': '',
+              'img': formula_12_10
+          },
+          {
+              'number': 12.11,
+              'title': '',
+              'img': formula_12_11
+          },
+          {
+              'number': 12.12,
+              'title': '',
+              'img': formula_12_12
+          },
+          {
+              'number': 12.13,
+              'title': '',
+              'img': formula_12_13
+          },
+          {
+              'number': 12.14,
+              'title': '',
+              'img': formula_12_14
+          },
+          {
+              'number': 12.15,
+              'title': '',
+              'img': formula_12_15
+          },
+          {
+              'number': 12.16,
+              'title': '',
+              'img': formula_12_16
+          },
+          {
+              'number': 12.17,
+              'title': '',
+              'img': formula_12_17
+          },
       ];
 
       this.smo_kinds = {
