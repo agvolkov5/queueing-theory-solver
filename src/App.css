@@ -142,20 +142,23 @@ body {
   font-family: "Times New Roman", sans-serif;
   margin-bottom: 15pt;
 }
-.results-container .formula-container .title {
+.results-container .formulas {
+  padding-bottom: 60pt;
+}
+.results-container .formulas .formula-container .title {
   font-family: "Times New Roman", sans-serif;
   font-size: 14pt;
   margin-top: 20pt;
   margin-bottom: 10pt;
 }
-.results-container .formula-container .formula {
+.results-container .formulas .formula-container .formula {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   margin: 0pt 0 2pt 0;
 }
-.results-container .formula-container .formula .value {
+.results-container .formulas .formula-container .formula .value {
   position: relative;
   font-size: 19pt;
   font-family: "Times New Roman", sans-serif;
