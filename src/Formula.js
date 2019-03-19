@@ -287,7 +287,7 @@ class Formula extends Component {
                 'number': 8.1,
                 'title': 'Финальные вероятности',
                 'img': formula_8_1,
-                'height': 30,
+                'height': 22,
                 'valueOffset': 0,
             },
             '8.2': {
