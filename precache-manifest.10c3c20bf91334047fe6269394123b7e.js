@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/queueing-theory-solver/static/media/9-9.67623369.png"
   },
   {
-    "revision": "341b470bdb29268bdf51",
-    "url": "/queueing-theory-solver/static/css/main.8f9742cb.chunk.css"
+    "revision": "45beba40393d6e2dccd1",
+    "url": "/queueing-theory-solver/static/css/main.0031581e.chunk.css"
   },
   {
     "revision": "fe946b0c0e63ea922124",
@@ -180,8 +180,8 @@ self.__precacheManifest = [
     "url": "/queueing-theory-solver/static/media/9-8.15d98f79.png"
   },
   {
-    "revision": "341b470bdb29268bdf51",
-    "url": "/queueing-theory-solver/static/js/main.2bf811ab.chunk.js"
+    "revision": "45beba40393d6e2dccd1",
+    "url": "/queueing-theory-solver/static/js/main.1426e207.chunk.js"
   },
   {
     "revision": "e2d714b9662663e25aa84573d1084ace",
@@ -356,7 +356,7 @@ self.__precacheManifest = [
     "url": "/queueing-theory-solver/static/media/rho.2a1f20d2.png"
   },
   {
-    "revision": "99f5aa552316e67b8323b78e3de49580",
+    "revision": "2346015bb1cc638854712b7e48b1bd59",
     "url": "/queueing-theory-solver/index.html"
   }
 ];
