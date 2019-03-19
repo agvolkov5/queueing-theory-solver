@@ -301,28 +301,28 @@ class Formula extends Component {
                 'number': 8.3,
                 'title': 'Относительная пропускная способность',
                 'img': formula_8_3,
-                'height': 30,
+                'height': 22,
                 'valueOffset': 0,
             },
             '8.4': {
                 'number': 8.4,
                 'title': 'Абсолютная пропускная способность',
                 'img': formula_8_4,
-                'height': 25,
+                'height': 23,
                 'valueOffset': 0,
             },
             '8.5': {
                 'number': 8.5,
                 'title': 'Среднее число заявок в очереди',
                 'img': formula_8_5,
-                'height': 60,
+                'height': 61,
                 'valueOffset': 0,
             },
             '8.6': {
                 'number': 8.6,
                 'title': 'Среднее число обслуживаемых заявок',
                 'img': formula_8_6,
-                'height': 30,
+                'height': 23,
                 'valueOffset': 0,
             },
             '8.7': {
@@ -706,8 +706,9 @@ class Formula extends Component {
             <div className="formula">
                 <img src={this.formulas[this.props.number].img}
                      alt={this.formulas[this.props.number].title}
-                     height={this.formulas[this.props.number].height}
-                     title={this.props.number} />
+                     title={this.props.number}
+                     style={{height: + this.formulas[this.props.number].height + "px"}}
+                />
                 <div className="value" style={{top: + this.formulas[this.props.number].title + "px"}} />
             </div>
         </div>);

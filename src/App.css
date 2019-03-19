@@ -137,7 +137,7 @@ body {
   font-family: "Times New Roman", sans-serif;
 }
 .results-container h1 {
-  font-size: 18pt;
+  font-size: 19.5pt;
   font-weight: 500;
   font-family: "Times New Roman", sans-serif;
   margin-bottom: 15pt;
@@ -146,7 +146,7 @@ body {
   font-family: "Times New Roman", sans-serif;
   font-size: 14pt;
   margin-top: 20pt;
-  margin-bottom: 5pt;
+  margin-bottom: 10pt;
 }
 .results-container .formula-container .formula {
   display: flex;
