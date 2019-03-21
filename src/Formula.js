@@ -853,10 +853,10 @@ class Formula extends Component {
                 'number': 12.2,
                 'title': 'Финальные вероятности',
                 'img': formula_12_2,
-                'height': 140,
+                'height': 110,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -15,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -955,7 +955,7 @@ class Formula extends Component {
                 'height': 65,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': -1,
+                    'horizontalOffset': -2,
                     'fontSize': 18.5
                 },
             },

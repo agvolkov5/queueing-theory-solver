@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b79b8fbd-e1b6-45ab-80c0-fb820dd1ed68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/12-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/12-2.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Formula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="912" column="40" selection-start-line="912" selection-start-column="40" selection-end-line="912" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="954" column="28" selection-start-line="954" selection-start-column="28" selection-end-line="954" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -246,7 +246,7 @@
       <workItem from="1552854602113" duration="74000" />
       <workItem from="1552863065298" duration="12195000" />
       <workItem from="1552999224456" duration="9465000" />
-      <workItem from="1553167407809" duration="1620000" />
+      <workItem from="1553167407809" duration="2067000" />
     </task>
     <task id="LOCAL-00001" summary="UX improvement: значит =&gt; это">
       <created>1552395212449</created>
@@ -332,11 +332,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553081784926</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="horizontal offsets corrected">
+      <created>1553169486455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553169486455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60324000" />
+    <option name="totallyTimeSpent" value="60771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +435,8 @@
     <MESSAGE value="style improved" />
     <MESSAGE value="selected the right size for every formula picture" />
     <MESSAGE value="fake values appended" />
-    <option name="LAST_COMMIT_MESSAGE" value="fake values appended" />
+    <MESSAGE value="horizontal offsets corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="horizontal offsets corrected" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.css">
@@ -492,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Formula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="912" column="40" selection-start-line="912" selection-start-column="40" selection-end-line="912" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="954" column="28" selection-start-line="954" selection-start-column="28" selection-end-line="954" selection-end-column="28" />
         </state>
       </provider>
     </entry>
