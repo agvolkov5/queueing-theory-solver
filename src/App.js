@@ -166,7 +166,7 @@ class App extends Component {
           m_value: '',
           t_value: '',
           m_radio: 'queue length limit',
-          smo: this.smo_kinds['1'], // 0si
+          smo: this.smo_kinds['0si'], // 0si
       };
   }
   getCurrentSMOKind = () => {
@@ -319,6 +319,7 @@ class App extends Component {
           <div className="results-container">
               <h1>{this.state.smo.title}</h1>
               <div className="formulas">
+                  <Formula number="rho" />
                   {listFormulas}
               </div>
           </div>

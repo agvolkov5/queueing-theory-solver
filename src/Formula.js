@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import rho from './img/rho.png';
 import formula_4_5 from "./img/4-5.png";
 import formula_4_6 from "./img/4-6.png";
 import formula_4_7 from "./img/4-7.png";
@@ -101,6 +102,17 @@ class Formula extends Component {
         };
 
         this.formulas = {
+            'rho': {
+                'number': '',
+                'title': '',
+                'img': rho,
+                'height': 25,
+                'value': {
+                    'verticalOffset': -4,
+                    'horizontalOffset': 0,
+                    'fontSize': 18.5,
+                }
+            },
             '4.5': {
                 'number': 4.5,
                 'title': '',
