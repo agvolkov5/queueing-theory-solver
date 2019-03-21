@@ -186,7 +186,6 @@ class Formula extends Component {
                 'img': formula_5_1,
                 'height': 60,
                 'value': {
-                    'hidden': false,
                     'verticalOffset': -2,
                     'horizontalOffset': 2,
                     'fontSize': 18.5
@@ -231,6 +230,7 @@ class Formula extends Component {
                 'img': formula_6_3,
                 'height': 57,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -308,6 +308,7 @@ class Formula extends Component {
                 'img': formula_7_3,
                 'height': 33,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -418,6 +419,7 @@ class Formula extends Component {
                 'img': formula_8_2,
                 'height': 28,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -429,6 +431,7 @@ class Formula extends Component {
                 'img': formula_8_3,
                 'height': 22,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -506,6 +509,7 @@ class Formula extends Component {
                 'img': formula_9_3,
                 'height': 60,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -660,6 +664,7 @@ class Formula extends Component {
                 'img': formula_10_2,
                 'height': 59,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -682,6 +687,7 @@ class Formula extends Component {
                 'img': formula_10_4,
                 'height': 24,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -693,6 +699,7 @@ class Formula extends Component {
                 'img': formula_10_5,
                 'height': 24,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -759,6 +766,7 @@ class Formula extends Component {
                 'img': formula_11_3,
                 'height': 61,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -770,6 +778,7 @@ class Formula extends Component {
                 'img': formula_11_4,
                 'height': 100,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -825,7 +834,7 @@ class Formula extends Component {
                 'img': formula_11_9,
                 'height': 105,
                 'value': {
-                    'verticalOffset': -18,
+                    'verticalOffset': -20,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
                 },
@@ -880,6 +889,7 @@ class Formula extends Component {
                 'img': formula_12_3,
                 'height': 36,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -891,6 +901,7 @@ class Formula extends Component {
                 'img': formula_12_4,
                 'height': 32,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -913,6 +924,7 @@ class Formula extends Component {
                 'img': formula_12_6,
                 'height': 25,
                 'value': {
+                    'hidden': true,
                     'verticalOffset': -2,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
@@ -1025,6 +1037,20 @@ class Formula extends Component {
         if (title !== '') {
             title += ':';
         }
+
+        let value = <div className="value"
+                         style={{
+                             top: +this.formulas[this.props.number].value.verticalOffset + "px",
+                             left: +this.formulas[this.props.number].value.horizontalOffset + "px",
+                             fontSize: +this.formulas[this.props.number].value.fontSize + "pt"}}>
+            {this.props.number}
+        </div>;
+        if (this.formulas[this.props.number].value.hasOwnProperty('hidden')) {
+            if (this.formulas[this.props.number].value.hidden === true) {
+                value = null;
+            }
+        }
+
         return (<div className="formula-container">
             {title !== '' &&
                 <div className="title">{title}</div>
@@ -1035,16 +1061,7 @@ class Formula extends Component {
                      title={this.props.number}
                      style={{height: + this.formulas[this.props.number].height + "px"}}
                 />
-                {this.formulas[this.props.number].value.hasOwnProperty('hidden') &&
-                    <div className="value"
-                         style={{
-                             top: +this.formulas[this.props.number].value.verticalOffset + "px",
-                             left: +this.formulas[this.props.number].value.horizontalOffset + "px",
-                             fontSize: +this.formulas[this.props.number].value.fontSize + "pt",
-                         }}>
-                        {this.props.number}
-                    </div>
-                }
+                {value !== null && value}
             </div>
         </div>);
     }
