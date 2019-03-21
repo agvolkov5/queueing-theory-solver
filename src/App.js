@@ -166,7 +166,7 @@ class App extends Component {
           m_value: '',
           t_value: '',
           m_radio: 'queue length limit',
-          smo: this.smo_kinds['0si'], // 0si
+          smo: this.smo_kinds['0sr'], // 0si
       };
   }
   getCurrentSMOKind = () => {

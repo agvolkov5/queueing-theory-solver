@@ -108,7 +108,7 @@ class Formula extends Component {
                 'img': rho,
                 'height': 25,
                 'value': {
-                    'hidden': true,
+                    'hidden': false,
                     'verticalOffset': -4,
                     'horizontalOffset': 0,
                     'fontSize': 18.5,
@@ -186,6 +186,7 @@ class Formula extends Component {
                 'img': formula_5_1,
                 'height': 60,
                 'value': {
+                    'hidden': false,
                     'verticalOffset': -2,
                     'horizontalOffset': 2,
                     'fontSize': 18.5
@@ -1040,8 +1041,7 @@ class Formula extends Component {
                              top: +this.formulas[this.props.number].value.verticalOffset + "px",
                              left: +this.formulas[this.props.number].value.horizontalOffset + "px",
                              fontSize: +this.formulas[this.props.number].value.fontSize + "pt",
-                         }}
-                    >
+                         }}>
                         {this.props.number}
                     </div>
                 }
