@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b79b8fbd-e1b6-45ab-80c0-fb820dd1ed68" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formula.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="168" column="34" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
+            <state relative-caret-position="449">
+              <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
               <folding>
                 <element signature="e#3816#3994#0" />
                 <element signature="e#4013#4220#0" />
@@ -54,13 +51,6 @@
                 <element signature="e#4986#5231#0" />
                 <element signature="e#5251#5561#0" />
                 <element signature="e#5578#5850#0" />
-                <element signature="e#6366#6776#0" />
-                <element signature="e#6939#7043#0" />
-                <element signature="e#7068#7172#0" />
-                <element signature="e#7197#7301#0" />
-                <element signature="e#7332#7438#0" />
-                <element signature="e#7474#7588#0" />
-                <element signature="e#8166#11264#0" />
               </folding>
             </state>
           </provider>
@@ -69,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Formula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="959" column="18" selection-start-line="959" selection-start-column="18" selection-end-line="959" selection-end-column="18" />
+            <state relative-caret-position="541">
+              <caret line="912" column="40" selection-start-line="912" selection-start-column="40" selection-end-line="912" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -110,8 +100,8 @@
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/package.json" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.sass" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Formula.js" />
       </list>
     </option>
@@ -127,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +245,8 @@
       <workItem from="1552666999119" duration="318000" />
       <workItem from="1552854602113" duration="74000" />
       <workItem from="1552863065298" duration="12195000" />
-      <workItem from="1552999224456" duration="8835000" />
+      <workItem from="1552999224456" duration="9465000" />
+      <workItem from="1553167407809" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="UX improvement: значит =&gt; это">
       <created>1552395212449</created>
@@ -334,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553029161866</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fake values appended">
+      <created>1553081784926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553081784926</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58074000" />
+    <option name="totallyTimeSpent" value="60324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,8 +351,8 @@
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" weight="0.24947146" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782923" weight="0.24947146" />
+      <window_info id="Structure" order="1" sideWeight="0.50217074" side_tool="true" weight="0.24947146" />
       <window_info id="npm" order="2" sideWeight="0.5010799" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,27 +371,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" weight="0.24947146" />
-      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.24947146" />
-      <window_info id="npm" order="2" sideWeight="0.5010799" side_tool="true" weight="0.24947146" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.28798842" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299566" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" weight="0.3299566" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.3299566" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299566" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -450,7 +427,8 @@
     <MESSAGE value="pictures trimmed" />
     <MESSAGE value="style improved" />
     <MESSAGE value="selected the right size for every formula picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="selected the right size for every formula picture" />
+    <MESSAGE value="fake values appended" />
+    <option name="LAST_COMMIT_MESSAGE" value="fake values appended" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.css">
@@ -488,10 +466,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="168" column="34" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
+        <state relative-caret-position="449">
+          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
           <folding>
             <element signature="e#3816#3994#0" />
             <element signature="e#4013#4220#0" />
@@ -501,28 +486,14 @@
             <element signature="e#4986#5231#0" />
             <element signature="e#5251#5561#0" />
             <element signature="e#5578#5850#0" />
-            <element signature="e#6366#6776#0" />
-            <element signature="e#6939#7043#0" />
-            <element signature="e#7068#7172#0" />
-            <element signature="e#7197#7301#0" />
-            <element signature="e#7332#7438#0" />
-            <element signature="e#7474#7588#0" />
-            <element signature="e#8166#11264#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Formula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="959" column="18" selection-start-line="959" selection-start-column="18" selection-end-line="959" selection-end-column="18" />
+        <state relative-caret-position="541">
+          <caret line="912" column="40" selection-start-line="912" selection-start-column="40" selection-end-line="912" selection-end-column="40" />
         </state>
       </provider>
     </entry>

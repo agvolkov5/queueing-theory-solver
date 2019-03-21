@@ -174,7 +174,7 @@ class Formula extends Component {
                 'height': 60,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -185,7 +185,7 @@ class Formula extends Component {
                 'height': 63,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -206,8 +206,8 @@ class Formula extends Component {
                 'img': formula_6_2,
                 'height': 56,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 2,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -228,8 +228,8 @@ class Formula extends Component {
                 'img': formula_6_4,
                 'height': 55,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 1,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -239,8 +239,8 @@ class Formula extends Component {
                 'img': formula_6_5,
                 'height': 55,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -250,8 +250,8 @@ class Formula extends Component {
                 'img': formula_6_6,
                 'height': 74,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -1,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -261,8 +261,8 @@ class Formula extends Component {
                 'img': formula_6_7,
                 'height': 74,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -283,8 +283,8 @@ class Formula extends Component {
                 'img': formula_7_2,
                 'height': 55,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -3,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -316,8 +316,8 @@ class Formula extends Component {
                 'img': formula_7_5,
                 'height': 29,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -327,8 +327,8 @@ class Formula extends Component {
                 'img': formula_7_6,
                 'height': 30,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -338,8 +338,8 @@ class Formula extends Component {
                 'img': formula_7_7,
                 'height': 30,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -437,8 +437,8 @@ class Formula extends Component {
                 'img': formula_8_5,
                 'height': 62,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -1,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -459,8 +459,8 @@ class Formula extends Component {
                 'img': formula_8_7,
                 'height': 52,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -6,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -481,8 +481,8 @@ class Formula extends Component {
                 'img': formula_9_2,
                 'height': 74,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 1,
+                    'horizontalOffset': 5,
                     'fontSize': 18.5
                 },
             },
@@ -503,8 +503,8 @@ class Formula extends Component {
                 'img': formula_9_4,
                 'height': 65,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -514,8 +514,8 @@ class Formula extends Component {
                 'img': formula_9_5,
                 'height': 60,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -525,8 +525,8 @@ class Formula extends Component {
                 'img': formula_9_6,
                 'height': 58,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -536,7 +536,7 @@ class Formula extends Component {
                 'img': formula_9_7,
                 'height': 54,
                 'value': {
-                    'verticalOffset': -2,
+                    'verticalOffset': -1,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
                 },
@@ -548,7 +548,7 @@ class Formula extends Component {
                 'height': 73,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': 2,
                     'fontSize': 18.5
                 },
             },
@@ -558,8 +558,8 @@ class Formula extends Component {
                 'img': formula_9_9,
                 'height': 74,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -570,7 +570,7 @@ class Formula extends Component {
                 'height': 23,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -635,8 +635,8 @@ class Formula extends Component {
                 'img': formula_10_1,
                 'height': 72,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 1,
+                    'horizontalOffset': 3,
                     'fontSize': 18.5
                 },
             },
@@ -658,7 +658,7 @@ class Formula extends Component {
                 'height': 60,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -1,
                     'fontSize': 18.5
                 },
             },
@@ -691,7 +691,7 @@ class Formula extends Component {
                 'height': 25,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -2,
                     'fontSize': 18.5
                 },
             },
@@ -702,7 +702,7 @@ class Formula extends Component {
                 'height': 70,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -2,
                     'fontSize': 18.5
                 },
             },
@@ -713,7 +713,7 @@ class Formula extends Component {
                 'height': 25,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -1,
                     'fontSize': 18.5
                 },
             },
@@ -734,8 +734,8 @@ class Formula extends Component {
                 'img': formula_11_2,
                 'height': 140,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 1,
+                    'horizontalOffset': 3,
                     'fontSize': 18.5
                 },
             },
@@ -767,8 +767,8 @@ class Formula extends Component {
                 'img': formula_11_5,
                 'height': 145,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -1,
+                    'horizontalOffset': -2,
                     'fontSize': 18.5
                 },
             },
@@ -778,8 +778,8 @@ class Formula extends Component {
                 'img': formula_11_6,
                 'height': 100,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': -21,
+                    'horizontalOffset': -1,
                     'fontSize': 18.5
                 },
             },
@@ -789,7 +789,7 @@ class Formula extends Component {
                 'img': formula_11_7,
                 'height': 87,
                 'value': {
-                    'verticalOffset': -2,
+                    'verticalOffset': -13,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
                 },
@@ -811,7 +811,7 @@ class Formula extends Component {
                 'img': formula_11_9,
                 'height': 105,
                 'value': {
-                    'verticalOffset': -2,
+                    'verticalOffset': -18,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
                 },
@@ -834,7 +834,7 @@ class Formula extends Component {
                 'height': 68,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -888,8 +888,8 @@ class Formula extends Component {
                 'img': formula_12_5,
                 'height': 65,
                 'value': {
-                    'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'verticalOffset': 0,
+                    'horizontalOffset': 1,
                     'fontSize': 18.5
                 },
             },
@@ -922,7 +922,7 @@ class Formula extends Component {
                 'height': 55,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -1,
                     'fontSize': 18.5
                 },
             },
@@ -943,7 +943,7 @@ class Formula extends Component {
                 'img': formula_12_10,
                 'height': 33,
                 'value': {
-                    'verticalOffset': -2,
+                    'verticalOffset': 3,
                     'horizontalOffset': 0,
                     'fontSize': 18.5
                 },
@@ -955,7 +955,7 @@ class Formula extends Component {
                 'height': 65,
                 'value': {
                     'verticalOffset': -2,
-                    'horizontalOffset': 0,
+                    'horizontalOffset': -1,
                     'fontSize': 18.5
                 },
             },
@@ -1021,7 +1021,11 @@ class Formula extends Component {
                      title={this.props.number}
                      style={{height: + this.formulas[this.props.number].height + "px"}}
                 />
-                <div className="value" style={{top: + this.formulas[this.props.number].value.verticalOffset + "px"}}>
+                <div className="value" style={{
+                                                top: + this.formulas[this.props.number].value.verticalOffset + "px",
+                                                left: + this.formulas[this.props.number].value.horizontalOffset + "px",
+                                                fontSize: + this.formulas[this.props.number].value.fontSize + "pt",
+                }}>
                     {this.props.number}
                 </div>
             </div>
